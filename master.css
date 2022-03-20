@@ -34,7 +34,8 @@ body {
 }
 @media (max-width:576px) {
     .container .logo {
-        margin-bottom: 30px;
+        margin-bottom: 20px;
+        padding-top:20px ;
     }
 }
 .container .logo img {
