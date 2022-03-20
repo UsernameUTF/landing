@@ -34,27 +34,32 @@ body {
 }
 @media (max-width:576px) {
     .container .logo {
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
 }
 .container .logo img {
-    width: 150px;
+    width: 170px;
 }
 .container .grid {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 15px;
+    gap: 23px;
     justify-content: space-evenly;
 }
 .container .grid .description {
     flex-grow: 1;
      width: 400px;
-    
+   
+}
+@media (min-width:992px) {
+    .container .grid .description {
+         margin-top: 20px;
+    }
 }
 .container .img {
-    flex-grow: 2;
-    width: 600px;
+    flex-grow: 1;
+    width: 500px;
 }
 .container .grid .img img {
      max-width: 100%;
@@ -64,8 +69,9 @@ body {
 .container .grid h1 {
     color: white ;
     line-height: 1.6;
-    font-size: calc(1.3rem + 0.7vw);
+    font-size: calc(1.4rem + 1vw);
     margin-bottom: 20px;
+    font-weight: bolder;
 }
 
 
@@ -74,6 +80,7 @@ body {
     line-height: 1.6;
     font-size: calc(0.7rem + .4vw);
     margin-bottom: 20px;
+    width: 90%;
 }
 .container .grid a {
     display: flex;
@@ -112,8 +119,8 @@ body {
  }
  
  .landing .container .logos svg {
-     width: 33x;
-     height: 33px;
+     width: 32px;
+     height: 32px;
      padding: 5px;
      border-radius: 50%;
      border: 1px solid white;
