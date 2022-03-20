@@ -66,6 +66,7 @@ body {
      max-width: 100%;
      margin: auto;
      object-fit: cover;
+     max-height: 480px;
 }
 .container .grid h1 {
     color: white ;
